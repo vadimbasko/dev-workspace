@@ -1,5 +1,7 @@
 #git init
 #git clone https://github.com/vadimbasko/ubuntu.git
+#git commit
+#git push
 
 #apt-get autoremove
 #apt-get purge aisleriot gnome-sudoku mahjongg ace-of-penguins gnomine gbrainy onboard
@@ -15,7 +17,7 @@
 
 #apt-get install mc diodon openssh-server xrdp
 
-#apt-get install gxneur
+#apt-get install gxneur aspell-ru
 #gsettings set com.canonical.Unity.Panel systray-whitelist "['all']"
 
 #apt-get install openvpn
