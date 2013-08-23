@@ -2,6 +2,7 @@
 #git clone https://github.com/vadimbasko/ubuntu.git
 #git commit
 #git push
+#git pull origin master 
 
 apt-get autoremove
 apt-get purge aisleriot gnome-sudoku mahjongg ace-of-penguins gnomine gbrainy onboard
