@@ -16,6 +16,10 @@ apt-get update
 apt-get install skype
 apt-get purge fonts-nanum
 
+add-apt-repository ppa: webupd8team/sublime-text-3
+apt-get update
+apt-get install sublime-text-installer
+
 apt-get install mc openssh-server xrdp
 
 apt-get install gxneur aspell-ru
