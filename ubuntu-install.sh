@@ -1,3 +1,6 @@
+#git init
+#git clone https://github.com/vadimbasko/ubuntu.git
+
 #apt-get autoremove
 #apt-get purge aisleriot gnome-sudoku mahjongg ace-of-penguins gnomine gbrainy onboard
 
