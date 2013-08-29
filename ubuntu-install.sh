@@ -21,9 +21,9 @@ add-apt-repository --yes ppa:diodon-team/stable webupd8team/sublime-text-3
 apt-get update
 
 apt-get -y install skype diodon sublime-text-installer git gitk gxneur aspell-ru google-chrome-stable
-apt-get -y purge fonts-nanum mc openssh-server xrdp 
+apt-get -y purge fonts-nanum  
 
-apt-get install vnstat
+apt-get -y install vnstat mc openssh-server xrdp
 
 #configuration - show xneural icon on tray
 gsettings set com.canonical.Unity.Panel systray-whitelist "['all']"
