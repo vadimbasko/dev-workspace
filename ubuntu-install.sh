@@ -20,8 +20,10 @@ sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt
 add-apt-repository --yes ppa:diodon-team/stable webupd8team/sublime-text-3
 apt-get update
 
-apt-get -y install skype diodon sublime-text-installer git gitk mc openssh-server xrdp gxneur aspell-ru google-chrome-stable
-apt-get -y purge fonts-nanum
+apt-get -y install skype diodon sublime-text-installer git gitk gxneur aspell-ru google-chrome-stable
+apt-get -y purge fonts-nanum mc openssh-server xrdp 
+
+apt-get install vnstat
 
 #configuration - show xneural icon on tray
 gsettings set com.canonical.Unity.Panel systray-whitelist "['all']"
