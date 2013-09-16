@@ -18,12 +18,14 @@ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-ke
 sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
 
 add-apt-repository --yes ppa:diodon-team/stable webupd8team/sublime-text-3
+#codecs for openshot
+add-apt-repository --yes ppa:jon-severinsson/ffmpeg
 apt-get update
 
 apt-get -y install skype diodon sublime-text-installer git gitk gxneur aspell-ru google-chrome-stable
 apt-get -y purge fonts-nanum  
 
-apt-get -y install vlc
+apt-get -y install vlc openshot ffmpeg
 
 apt-get -y install vnstat mc openssh-server xrdp
 
