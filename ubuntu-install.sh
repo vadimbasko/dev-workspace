@@ -25,7 +25,7 @@ apt-get update
 apt-get -y install skype diodon sublime-text-installer git gitk gxneur aspell-ru google-chrome-stable
 apt-get -y purge fonts-nanum  
 
-apt-get -y install vlc openshot ffmpeg hugin wine winetricks
+apt-get -y install vlc openshot ffmpeg hugin wine winetricks gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad
 
 apt-get -y install vnstat mc openssh-server xrdp
 
