@@ -19,6 +19,9 @@ apt-get update
 apt-get -y install skype diodon sublime-text-installer git gitk gxneur aspell-ru google-chrome-stable
 apt-get -y purge fonts-nanum  
 
+#add sublimetext to path
+export PATH=$PATH:/opt/sublime_text
+
 apt-get -y install vlc openshot ffmpeg hugin wine winetricks gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad
 
 apt-get -y install vnstat mc openssh-server xrdp
