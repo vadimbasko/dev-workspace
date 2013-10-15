@@ -2,4 +2,4 @@ git clone https://github.com/vadimbasko/ubuntu
 
 git config credential.helper store
 
-git add . | git commit -m '1' | git push
+git add . | git commit -m --allow-empty | git push
