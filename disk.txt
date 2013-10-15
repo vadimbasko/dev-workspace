@@ -1,0 +1,5 @@
+#in /etc/fstab
+#prj
+/dev/sda9       /prj    ext4    defaults        0       0
+#data
+/dev/sda10      /data   ext4    defaults        0       0
