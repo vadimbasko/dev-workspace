@@ -1,4 +1,4 @@
-#firefox cache test
+#firefox cache test 1
 cd /home/vadim/.cache/mozilla/firefox/i2hjctik.default/Cache 
 find -size +1M -exec cp {} ~/Downloads/muz/album \;
 
