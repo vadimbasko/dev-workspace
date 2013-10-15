@@ -17,6 +17,7 @@ add-apt-repository --yes ppa:jon-severinsson/ffmpeg
 apt-get update
 
 apt-get -y install skype diodon sublime-text-installer git gitk gxneur aspell-ru google-chrome-stable
+#skype fonts fix
 apt-get -y purge fonts-nanum  
 
 #add sublimetext to path
