@@ -1,9 +1,3 @@
-#git init
-#git clone https://github.com/vadimbasko/ubuntu.git
-#git commit
-#git push
-#git pull origin master 
-
 #mkdir /prj
 #chmod 777 /prj
 #mkdir /prj/ubuntu
@@ -31,10 +25,3 @@ apt-get -y install vnstat mc openssh-server xrdp
 
 #configuration - show xneural icon on tray
 gsettings set com.canonical.Unity.Panel systray-whitelist "['all']"
-
-#picasa install
-cd ~/ && wget http://dl.google.com/picasa/picasa39-setup.exe
-WINEARCH=win32 winecfg
-WINEARCH=win32 winetricks -q ie6
-wine ~/picasa39-setup.exe
-
