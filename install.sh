@@ -23,6 +23,9 @@ apt-get -y purge fonts-nanum
 #add sublimetext to path
 export PATH=$PATH:/opt/sublime_text
 
+#file manager, system settings required for switch off sound
+apt-get -y install krusader, systemsettings
+
 apt-get -y install vlc openshot ffmpeg hugin wine winetricks gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad
 
 apt-get -y install vnstat mc openssh-server xrdp
