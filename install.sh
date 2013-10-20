@@ -40,7 +40,7 @@ echo 'disable login sounds'
 mv /usr/share/sounds/ubuntu/stereo/system-ready{,-disabled}.ogg
 mv /usr/share/sounds/ubuntu/stereo/desktop-login{,-disabled}.ogg
 
-echo 'asus keyboard backlight - switch off on startup'
-touch /etc/init/keyboard-brightness.conf 
-chmod 777 /etc/init/keyboard-brightness.conf
-echo -e "#switch off keyboard brightness on start up \necho 0 | tee /sys/class/leds/asus::kbd_backlight/brightness" > /etc/init/keyboard-brightness.conf 
+#echo 'asus keyboard backlight - switch off on startup'
+#touch /etc/init/keyboard-brightness.conf 
+#chmod 777 /etc/init/keyboard-brightness.conf
+#echo -e "#switch off keyboard brightness on start up \necho 0 | tee /sys/class/leds/asus::kbd_backlight/brightness" > /etc/init/keyboard-brightness.conf 
