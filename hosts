@@ -1,0 +1,112 @@
+127.0.0.1	localhost
+127.0.1.1	basko2
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+# Addison Lee servers
+10.14.0.135     appserver1 app1
+
+10.15.15.47     dgas1 
+172.18.200.159  dgas2
+172.18.200.97   toolcentre02
+10.14.1.220     toolcentre01
+172.18.200.42   toolcentre03
+172.18.200.24   shamrock-datastore datastore
+172.18.200.22   invserver1 invserver
+172.18.200.37   invserver-test
+172.18.200.246  webservicetest 
+172.18.200.104  scheduler01 scheduler
+
+172.18.200.49   shamrock-eapi01 
+172.19.200.167  eapi1
+172.19.200.166  eapi2
+172.19.200.112  eapi3
+172.19.200.113  eapi4
+
+172.18.200.102  tbsmain01
+172.18.200.103  tbsmain02
+172.18.200.133  tbsspare01
+172.18.200.134  tbsspare02
+
+172.18.200.68 remotews8
+172.18.200.38 remotews6
+172.18.200.12 remotews5
+10.11.0.13 remotews4
+10.11.0.12 remotews3
+10.11.0.10 remotews1
+10.11.0.11 remotews2
+
+172.18.200.71 mobileapp1
+172.18.200.72 mobileapp2
+172.18.200.73 mobileapp3
+172.18.200.74 mobileapp4
+
+172.18.200.129 smartphone-rh1
+172.18.200.139 smartphone-rh2
+
+172.18.200.19 shm-db
+
+10.5.0.1 csmain01
+10.5.0.2 csmain02
+10.5.0.3 csspare01
+10.5.0.4 csspare02
+
+172.18.200.63 redhat1
+
+172.18.200.56 websham-linux4 wl4
+172.18.200.57 websham-linux5 wl5
+
+172.19.200.128 baml-rh1
+172.19.200.127 baml-rh2
+172.19.200.163 websham-baml1
+
+172.19.200.136 prebooks-rh1
+172.19.200.137 prebooks-rh2
+
+172.18.200.146 barclays-rh1
+172.18.200.147 barclays-rh2
+
+172.18.200.148 crsuisse-rh1
+172.18.200.149 crsuisse-rh2
+
+172.18.200.150 westone-rh1
+172.18.200.151 westone-rh2
+
+172.18.200.110 websham-rh1
+172.18.200.111 websham-rh2
+
+172.18.200.211 websham-rh3 #obsolete	
+172.18.200.212 websham-rh4 #obsolete
+
+172.19.200.211 gs-rh1
+172.19.200.212 gs-rh2
+
+172.18.200.127 websham-rh5 #obsolete
+172.18.200.128 websham-rh6 #obsolete
+172.18.200.130 websham-rh7
+172.18.200.155 websham-rh8
+172.19.200.23  websham-rh9 
+
+172.18.200.121 webstage-al
+172.18.200.122 webstage-w1       
+172.18.200.123 webstage-cs
+172.18.200.124 webstage-br
+172.18.200.125 webstage-gs
+172.18.200.126 webstage-ml
+172.18.200.41  webstage-drp
+
+10.12.1.12 parcelallocator2
+10.14.2.29 appserver101
+
+172.18.200.162 router-rh1
+172.18.200.160 sham-lite
+
+172.18.200.114 xpay
+
+172.18.200.156 ubuntu-test
+172.22.100.6 basko2
