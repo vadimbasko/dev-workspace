@@ -1,3 +1,7 @@
+add-apt-repository --yes ppa:webupd8team/java
+apt-get -y update
+apt-get -y install oracle-java7-installer
+
 apt-get -y install openvpn
 mkdir /etc/openvpn/keys
 
