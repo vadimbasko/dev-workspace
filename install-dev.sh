@@ -20,6 +20,6 @@ apt-get -y autoremove
 #todo idea
 #todo gradle
 
-echo 'add idea and gradle path to ~/.bashrc'
-echo -e "\n export PATH=\$PATH:/opt/gradle/bin:/opt/idea/bin" >> ~/.bashrc
-echo -e "\n export GRADLE_HOME=/opt/gradle" >> ~/.bashrc
+echo 'add idea and gradle path to ~/.profile'
+echo -e "\n export PATH=\$PATH:/opt/gradle/bin:/opt/idea/bin" >> ~/.profile
+echo -e "\n export GRADLE_HOME=/opt/gradle" >> ~/.profile
