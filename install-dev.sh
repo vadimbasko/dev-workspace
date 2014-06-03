@@ -13,12 +13,15 @@ mkdir /etc/openvpn/keys
 #check client is start
 #sudo ps -x | grep openvpn
 
-apt-get -y install shutter subversion 
+apt-get -y install shutter subversion rdesktop
 
 apt-get -y autoremove
 
 #todo idea
+
 #todo gradle
+wget https://services.gradle.org/distributions/gradle-1.12-all.zip /opt/gradle
+
 
 echo 'add idea and gradle path to ~/.profile'
 echo -e "\n export PATH=\$PATH:/opt/gradle/bin:/opt/idea/bin" >> ~/.profile
