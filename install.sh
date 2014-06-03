@@ -33,6 +33,9 @@ apt-get -y install vlc openshot ffmpeg hugin wine winetricks gstreamer0.10-plugi
 
 apt-get -y install vnstat mc openssh-server xrdp
 
+echo 'install russian language'
+apt-get -y install language-pack-ru language-pack-gnome-ru language-pack-ru-base language-pack-gnome-ru-base
+
 echo 'configuration - show xneural icon on tray'
 gsettings set com.canonical.Unity.Panel systray-whitelist "['all']"
 
