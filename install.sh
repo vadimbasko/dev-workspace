@@ -16,7 +16,7 @@ add-apt-repository --yes ppa:diodon-team/stable webupd8team/sublime-text-3
 add-apt-repository --yes ppa:jon-severinsson/ffmpeg
 apt-get update
 
-apt-get -y install skype diodon sublime-text-installer git gitk gxneur aspell-ru google-chrome-stable
+apt-get -y install diodon sublime-text-installer git gitk gxneur aspell-ru google-chrome-stable
 
 echo 'install skype'
 apt-get -y install skype
