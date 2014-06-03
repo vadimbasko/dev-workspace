@@ -1,3 +1,5 @@
+#get UUID - sudo blkid
+
 #in /etc/fstab
 #prj
 /dev/sda9       /prj    ext4    defaults        0       0
