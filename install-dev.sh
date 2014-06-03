@@ -20,7 +20,7 @@ apt-get -y autoremove
 #todo idea
 
 #todo gradle
-wget -P /opt/gradle https://services.gradle.org/distributions/gradle-1.12-all.zip
+wget -P /opt https://services.gradle.org/distributions/gradle-1.12-all.zip
 
 
 echo 'add idea and gradle path to ~/.profile'
