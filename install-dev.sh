@@ -25,6 +25,9 @@ unzip /opt/gradle-1.12-all.zip -d /opt
 mv /opt/gradle-1.12 /opt/gradle
 echo -e "\n export GRADLE_HOME=/opt/gradle" >> ~/.profile
 
+wget http://download.jetbrains.com/idea/ideaIU-12.1.7b.tar.gz -P /opt
+
+
 
 echo 'add idea and gradle path to ~/.profile'
 echo -e "\n export PATH=\$PATH:/opt/gradle/bin:/opt/idea/bin" >> ~/.profile
