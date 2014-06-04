@@ -43,6 +43,9 @@ echo 'disable login sounds'
 mv /usr/share/sounds/ubuntu/stereo/system-ready{,-disabled}.ogg
 mv /usr/share/sounds/ubuntu/stereo/desktop-login{,-disabled}.ogg
 
+#move window to next monitor
+#apt-get -y install compizconfig-settings-manager compiz-plugins
+
 #amount of desktops
 #gconftool --get /apps/compiz-1/general/screen0/options/hsize 
 #gconftool --set /apps/compiz-1/general/screen0/options/hsize --type=int 3
