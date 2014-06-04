@@ -26,7 +26,7 @@ mv /opt/gradle-1.12 /opt/gradle
 echo -e "\n export GRADLE_HOME=/opt/gradle" >> ~/.profile
 
 wget http://download.jetbrains.com/idea/ideaIU-12.1.7b.tar.gz -P /opt
-
+tar -xf /opt/ideaIU-12.1.7b.tar.gz -C /opt
 
 
 echo 'add idea and gradle path to ~/.profile'
