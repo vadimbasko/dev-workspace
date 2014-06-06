@@ -24,7 +24,7 @@ echo 'skype fonts fix - remove fonts-nanum'
 apt-get -y purge fonts-nanum  
 
 #add sublimetext to path
-export PATH=$PATH:/opt/sublime_text
+echo -e "\n export PATH=\$PATH:/opt/sublime_text" >> ~/.profile
 
 echo 'install file manager krusader, system settings required for switch off sound'
 apt-get -y install krusader systemsettings
