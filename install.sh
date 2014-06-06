@@ -43,6 +43,10 @@ echo 'disable login sounds'
 mv /usr/share/sounds/ubuntu/stereo/system-ready{,-disabled}.ogg
 mv /usr/share/sounds/ubuntu/stereo/desktop-login{,-disabled}.ogg
 
+
+echo 'make sublime text default editor'
+sed -i.bak s/gedit.desktop/sublime_text.desktop/g /usr/share/applications/defaults.list
+
 #move window to next monitor
 #apt-get -y install compizconfig-settings-manager compiz-plugins
 
