@@ -49,6 +49,7 @@ sed -i.bak s/gedit.desktop/sublime_text.desktop/g /usr/share/applications/defaul
 
 echo 'date time settings'
 sed -i.bak s/LC_TIME=\"en_US.UTF-8\"/LC_TIME=\"ru_RU.UTF-8\"/g /etc/default/locale
+dpkg-reconfigure locales
 
 #move window to next monitor
 #apt-get -y install compizconfig-settings-manager compiz-plugins
