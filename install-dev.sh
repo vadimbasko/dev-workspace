@@ -34,4 +34,8 @@ wget http://download.jetbrains.com/idea/ideaIU-12.1.7b.tar.gz -P /opt
 tar -xf /opt/ideaIU-12.1.7b.tar.gz -C /opt
 mv /opt/idea-IU-129.1525/ /opt/idea
 
+#gyazo
+apt-get -y install ruby
+wget https://github.com/downloads/kambara/Gyazo-for-Linux/gyazo_1.0-1_all.deb -P /opt
+dpkg -i /opt/gyazo_1.0-1_all.deb
 
