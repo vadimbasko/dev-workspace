@@ -39,7 +39,9 @@ apt-get -y install language-pack-ru language-pack-gnome-ru language-pack-ru-base
 echo 'configuration - show xneural icon on tray'
 gsettings set com.canonical.Unity.Panel systray-whitelist "['all']"
 echo 'the same for ubuntu 14'
-gsettings set com.canonical.unity-gtk-module  whitelist "['all']"
+apt-add-repository --yes ppa:gurqn/systray-trusty
+apt-get -y update
+apt-get -y upgrade
 
 
 echo 'disable login sounds'
