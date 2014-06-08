@@ -13,7 +13,7 @@ mkdir /etc/openvpn/keys
 #check client is start
 #sudo ps -x | grep openvpn
 
-apt-get -y install shutter subversion rdesktop
+apt-get -y install rdesktop
 
 apt-get -y autoremove
 
