@@ -17,6 +17,11 @@ apt-get -y install shutter subversion rdesktop
 
 apt-get -y autoremove
 
+#revert old subersionn version to ubuntu 14
+echo -e "\n deb http://us.archive.ubuntu.com/ubuntu precise main" >> /etc/apt/source.list
+apt-get -y -t precise install libsvn1 subversion
+apt-mark hold libsvn1 subversion
+
 #gradle
 wget -P /opt https://services.gradle.org/distributions/gradle-1.12-all.zip
 unzip /opt/gradle-1.12-all.zip -d /opt
