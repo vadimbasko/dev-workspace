@@ -27,7 +27,8 @@ apt-get -y purge fonts-nanum
 echo -e "\n export PATH=\$PATH:/opt/sublime_text" >> ~/.profile
 
 echo 'install file manager krusader, system settings required for switch off sound'
-apt-get -y install krusader systemsettings
+apt-get -y install krusader
+#apt-get -y install systemsettings
 
 apt-get -y install vlc openshot ffmpeg hugin wine winetricks gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad
 
