@@ -35,7 +35,7 @@ tar -xf /opt/ideaIU-12.1.7b.tar.gz -C /opt
 mv /opt/idea-IU-129.1525/ /opt/idea
 
 #gyazo
-apt-get -y install ruby
+apt-get -y install ruby imagemagick
 wget https://github.com/downloads/kambara/Gyazo-for-Linux/gyazo_1.0-1_all.deb -P /opt
 dpkg -i /opt/gyazo_1.0-1_all.deb
 sed -i.bak s/gyazo.com/screenshot.haulmont.com/g /usr/bin/gyazo
