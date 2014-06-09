@@ -63,9 +63,6 @@ apt-get -y install compizconfig-settings-manager compiz-plugins
 #sed -i.bak s/LC_TIME=\"en_US.UTF-8\"/LC_TIME=\"ru_RU.UTF-8\"/g /etc/default/locale
 #dpkg-reconfigure locales
 
-#move window to next monitor
-#apt-get -y install compizconfig-settings-manager compiz-plugins
-
 #amount of desktops
 #gconftool --get /apps/compiz-1/general/screen0/options/hsize 
 #gconftool --set /apps/compiz-1/general/screen0/options/hsize --type=int 3
