@@ -30,7 +30,8 @@ echo 'install file manager krusader, system settings required for switch off sou
 apt-get -y install krusader
 #apt-get -y install systemsettings
 
-apt-get -y install vlc openshot ffmpeg hugin wine winetricks gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad
+apt-get -y install vlc 
+apt-get -y install openshot ffmpeg hugin wine winetricks gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad
 
 apt-get -y install vnstat mc openssh-server xrdp
 
@@ -52,6 +53,8 @@ mv /usr/share/sounds/ubuntu/stereo/desktop-login{,-disabled}.ogg
 
 echo 'make sublime text default editor'
 sed -i.bak s/gedit.desktop/sublime_text.desktop/g /usr/share/applications/defaults.list
+
+#shutdown window gnome-session-quit --power-off --force
 
 #echo 'date time settings'
 #sed -i.bak s/LC_TIME=\"en_US.UTF-8\"/LC_TIME=\"ru_RU.UTF-8\"/g /etc/default/locale
