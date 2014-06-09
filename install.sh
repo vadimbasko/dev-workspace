@@ -11,7 +11,7 @@ add-apt-repository --yes "deb http://archive.canonical.com/ $(lsb_release -sc) p
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
 sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
 
-add-apt-repository --yes ppa:diodon-team/stable webupd8team/sublime-text-3
+add-apt-repository --yes ppa:diodon-team/stable ppa:webupd8team/sublime-text-3
 #codecs for openshot
 add-apt-repository --yes ppa:jon-severinsson/ffmpeg
 apt-get update
