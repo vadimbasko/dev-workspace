@@ -54,6 +54,9 @@ mv /usr/share/sounds/ubuntu/stereo/desktop-login{,-disabled}.ogg
 echo 'make sublime text default editor'
 sed -i.bak s/gedit.desktop/sublime_text.desktop/g /usr/share/applications/defaults.list
 
+echo 'PUT - desktop plugin '
+apt-get -y install compizconfig-settings-manager compiz-plugins
+
 #shutdown window gnome-session-quit --power-off --force
 
 #echo 'date time settings'
