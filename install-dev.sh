@@ -38,4 +38,7 @@ mv /opt/idea-IU-129.1525/ /opt/idea
 apt-get -y install ruby
 wget https://github.com/downloads/kambara/Gyazo-for-Linux/gyazo_1.0-1_all.deb -P /opt
 dpkg -i /opt/gyazo_1.0-1_all.deb
+sed -i.bak s/gyazo.com/screenshot.haulmont.com/g /usr/bin/gyazo
+sed -i.bak s/upload.cgi/upload.php/g /usr/bin/gyazo
+
 
