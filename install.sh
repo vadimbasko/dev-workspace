@@ -26,8 +26,8 @@ apt-get -y purge fonts-nanum
 #add sublimetext to path
 echo -e "\n export PATH=\$PATH:/opt/sublime_text" >> ~/.profile
 
-echo 'install file manager krusader, system settings required for switch off sound'
-apt-get -y install krusader
+#echo 'install file manager krusader, system settings required for switch off sound'
+#apt-get -y install krusader
 #apt-get -y install systemsettings
 
 apt-get -y install vlc 
@@ -56,6 +56,13 @@ sed -i.bak s/gedit.desktop/sublime_text.desktop/g /usr/share/applications/defaul
 
 echo 'PUT - desktop plugin '
 apt-get -y install compizconfig-settings-manager compiz-plugins
+
+
+echo 'install file manager'
+apt-get -y install konqueror
+echo 'open konqueror as file manager'
+sed -i.bak s/webbrowsing/filemanagement/g /usr/bin/gyazo /usr/share/applicatoins/kde4/konqbrowser.desktop
+
 
 #shutdown window gnome-session-quit --power-off --force
 
