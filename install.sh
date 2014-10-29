@@ -56,11 +56,6 @@ sed -i.bak s/gedit.desktop/sublime_text.desktop/g /usr/share/applications/defaul
 echo 'PUT - desktop plugin '
 apt-get -y install compizconfig-settings-manager compiz-plugins
 
-echo 'install file manager'
-apt-get -y install konqueror
-echo 'open konqueror as file manager'
-sed -i.bak s/webbrowsing/filemanagement/g /usr/bin/gyazo /usr/share/applicatoins/kde4/konqbrowser.desktop
-
 #shutdown window gnome-session-quit --power-off --force
 
 #echo 'date time settings'
