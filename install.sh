@@ -70,3 +70,8 @@ apt-get -y install compizconfig-settings-manager compiz-plugins
 #sudo su
 #echo -e "\nchown vadim:vadim /sys/class/leds/asus::kbd_backlight/brightness" >> /etc/init.d/rc.local
 #echo -e "\necho 0 > /sys/class/leds/asus::kbd_backlight/brightness" >> ~/.profile
+
+#echo 'ubuntu 14 mouse speed and sensivity'
+#xset m 20/12 0
+
+
