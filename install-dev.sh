@@ -18,7 +18,8 @@ apt-get -y install rdesktop
 apt-get -y autoremove
 
 #revert old subersionn version to ubuntu 14
-sudo sh -c "echo '\ndeb http://us.archive.ubuntu.com/ubuntu precise main' >> /etc/apt/sources.list"
+sh -c "echo '\ndeb http://us.archive.ubuntu.com/ubuntu precise main' >> /etc/apt/sources.list"
+apt-get update
 apt-get -y -t precise install libsvn1 subversion
 apt-mark hold libsvn1 subversion
 
