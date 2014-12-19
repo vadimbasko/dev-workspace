@@ -28,9 +28,9 @@ echo -e "\n export GRADLE_HOME=/opt/gradle" >> ~/.profile
 echo -e "\n export PATH=\$PATH:/opt/gradle/bin:/opt/idea/bin" >> ~/.profile
 
 #idea
-wget http://download.jetbrains.com/idea/ideaIU-12.1.7b.tar.gz -P /opt
-tar -xf /opt/ideaIU-12.1.7b.tar.gz -C /opt
-mv /opt/idea-IU-129.1525/ /opt/idea
+wget http://download.jetbrains.com/idea/ideaIU-13.1.6.tar.gz -P /opt
+tar -xf /opt/ideaIU-13.1.6.tar.gz -C /opt
+mv /opt/idea-IU-129.1525/ /opt/idea13
 
 #gyazo
 apt-get -y install ruby imagemagick
