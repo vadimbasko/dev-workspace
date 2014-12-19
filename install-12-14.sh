@@ -26,6 +26,8 @@ unzip /opt/gradle-1.12-all.zip -d /opt
 mv /opt/gradle-1.12 /opt/gradle
 echo -e "\n export GRADLE_HOME=/opt/gradle" >> ~/.profile
 echo -e "\n export PATH=\$PATH:/opt/gradle/bin:/opt/idea/bin" >> ~/.profile
+#gradle to 'g' link
+ln -s /opt/gradle/bin/gradle /opt/gradle/bin/g
 
 #idea
 wget http://download.jetbrains.com/idea/ideaIU-13.1.6.tar.gz -P /opt
@@ -43,3 +45,5 @@ git config --global credential.helper 'cache --timeout=31536000'
 
 #run ant under jdk5
 #JAVA_HOME=/usr/lib/jvm/java-1.5.0-sun-1.5.0.22/ ant build
+
+
