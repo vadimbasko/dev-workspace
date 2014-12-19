@@ -14,7 +14,7 @@ apt-get -y install compizconfig-settings-manager compiz-plugins
 
 apt-get -y install oracle-java7-installer rdesktop
 
-#revert old subersionn version to ubuntu 14
+#revert old subersion version to ubuntu 14
 sh -c "echo '\ndeb http://us.archive.ubuntu.com/ubuntu precise main' >> /etc/apt/sources.list"
 apt-get update
 apt-get -y -t precise install libsvn1 subversion
