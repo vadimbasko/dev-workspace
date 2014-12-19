@@ -40,4 +40,4 @@ sed -i.bak s/gyazo.com/screenshot.haulmont.com/g /usr/bin/gyazo
 sed -i.bak s/upload.cgi/upload.php/g /usr/bin/gyazo
 
 #git credentials for a year
-git config --global credential.helper 'cache --timeout=604800'
+git config --global credential.helper 'cache --timeout=31536000'
