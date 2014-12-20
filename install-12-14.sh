@@ -49,8 +49,8 @@ git config --global credential.helper 'cache --timeout=31536000'
 #IDEA inotify settings
 echo -e "\n fs.inotify.max_user_watches = 524288" >> /etc/sysctl.conf
 #Tomcat memory
-echo -e "\n export $TOMCAT_XMX=-Xmx512m" >> ~/.profile
-echo -e "\n export $TOMCAT_PERM_XMX=-XX:MaxPermSize=512m" >> ~/.profile
+echo -e "\n export TOMCAT_XMX=-Xmx512m" >> ~/.profile
+echo -e "\n export TOMCAT_PERM_XMX=-XX:MaxPermSize=512m" >> ~/.profile
 
 
 
