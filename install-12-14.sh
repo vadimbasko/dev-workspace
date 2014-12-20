@@ -46,4 +46,7 @@ git config --global credential.helper 'cache --timeout=31536000'
 #run ant under jdk5
 #JAVA_HOME=/usr/lib/jvm/java-1.5.0-sun-1.5.0.22/ ant build
 
+#IDEA inotify settings
+echo -e "\n fs.inotify.max_user_watches = 524288" >> /etc/sysctl.conf
+
 
