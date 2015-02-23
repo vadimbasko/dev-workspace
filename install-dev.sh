@@ -45,4 +45,7 @@ sed -i.bak s/upload.cgi/upload.php/g /usr/bin/gyazo
 #run ant under jdk5
 JAVA_HOME=/usr/lib/jvm/java-1.5.0-sun-1.5.0.22/ ant build
 
+#image viewver
+apt-get install gthumb
+
 
