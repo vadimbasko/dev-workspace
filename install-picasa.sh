@@ -1,3 +1,5 @@
+sudo apt-get install wine winetricks
+
 #picasa install
 cd ~/ && wget http://dl.google.com/picasa/picasa39-setup.exe
 WINEARCH=win32 winecfg
