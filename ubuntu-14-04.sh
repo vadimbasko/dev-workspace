@@ -9,3 +9,6 @@ sudo apt-get -y remove totem
 
 #stand by sda disk
 #sudo hdparm -B -Y /dev/sda
+
+#shutdown window 
+#gnome-session-quit --power-off --force
