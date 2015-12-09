@@ -7,6 +7,9 @@ sudo apt-get -y install compizconfig-settings-manager gthumb mc vlc sublime-text
  
 sudo apt-get -y remove totem
 
+#skype tray icon
+sudo apt-get install sni-qt:i386
+
 #stand by sda disk
 #sudo hdparm -B -Y /dev/sda
 
