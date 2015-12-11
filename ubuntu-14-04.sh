@@ -1,5 +1,7 @@
-add-apt-repository --yes ppa:diodon-team/stable
-add-apt-repository --yes ppa:webupd8team/sublime-text-3
+sudo add-apt-repository --yes ppa:diodon-team/stable
+sudo add-apt-repository --yes ppa:webupd8team/sublime-text-3
+#equalizer
+sudo add-apt-repository ppa:nilarimogard/webupd8 
 
 sudo apt-get update
 
@@ -9,6 +11,9 @@ sudo apt-get -y remove totem
 
 #skype tray icon
 sudo apt-get install sni-qt:i386
+
+#equalizer
+sudo apt-get install pulseaudio-equalizer
 
 #stand by sda disk
 #sudo hdparm -B -Y /dev/sda
