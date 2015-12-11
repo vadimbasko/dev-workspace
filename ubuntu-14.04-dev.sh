@@ -1,3 +1,5 @@
+sudo apt-get install git
+
 #gradle
 wget -P /opt https://services.gradle.org/distributions/gradle-1.12-all.zip
 unzip /opt/gradle-1.12-all.zip -d /opt
