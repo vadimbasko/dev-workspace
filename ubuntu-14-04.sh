@@ -9,7 +9,7 @@ sudo apt-get update
 
 sudo apt-get -y install compizconfig-settings-manager gthumb mc vlc sublime-text-installer diodon
  
-sudo apt-get -y remove totem
+sudo apt-get -y remove totem rhythmbox
 
 #skype tray icon
 sudo apt-get install sni-qt:i386
