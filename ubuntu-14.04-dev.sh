@@ -1,4 +1,4 @@
-sudo apt-get install git npm
+sudo apt-get install -y git npm nodejs-legacy
 
 #gradle
 wget -P /opt https://services.gradle.org/distributions/gradle-1.12-all.zip
