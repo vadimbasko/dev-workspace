@@ -7,7 +7,7 @@ sudo add-apt-repository ppa:webupd8team/java
 
 sudo apt-get update
 
-sudo apt-get -y install compizconfig-settings-manager gthumb mc vlc sublime-text-installer diodon audacious
+sudo apt-get -y install compizconfig-settings-manager gthumb mc vlc sublime-text-installer diodon audacious pinta
  
 sudo apt-get -y remove totem rhythmbox
 
