@@ -20,6 +20,10 @@ sudo apt-get install pulseaudio-equalizer
 #java
 sudo apt-get install oracle-java8-installer
 
+#gyazo
+curl -s https://packagecloud.io/install/repositories/gyazo/gyazo-for-linux/script.deb.sh | sudo bash
+sudo apt-get install gyazo
+
 #stand by sda disk
 #sudo hdparm -B -Y /dev/sda
 
