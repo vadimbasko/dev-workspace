@@ -15,3 +15,9 @@ sudo apt-get update
 
 #mongodb
 sudo apt-get install -y mongodb-org
+
+#ssh keys permissions
+sudo chmod 600  ~/.ssh/keys/xxx/id_rsa
+sudo chmod 600  ~/.ssh/keys/xxx/id_rsa.pub 
+sudo chmod 755  ~/.ssh/keys/xxx/
+
