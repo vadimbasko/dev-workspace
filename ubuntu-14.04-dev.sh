@@ -29,3 +29,6 @@ sudo chmod 600  ~/.ssh/keys/xxx/id_rsa
 sudo chmod 600  ~/.ssh/keys/xxx/id_rsa.pub 
 sudo chmod 755  ~/.ssh/keys/xxx/
 
+#old nodejs
+sudo apt-get install nodejs=0.10.25~dfsg2-2ubuntu1
+
