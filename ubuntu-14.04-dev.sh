@@ -32,3 +32,6 @@ sudo chmod 755  ~/.ssh/keys/xxx/
 #old nodejs
 sudo apt-get install nodejs=0.10.25~dfsg2-2ubuntu1
 
+#mysql
+sudo apt-get install mysql-server
+
