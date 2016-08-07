@@ -29,3 +29,6 @@ sudo apt-get install gyazo
 
 #shutdown window 
 #gnome-session-quit --power-off --force
+
+#backup (or use cloneizlla)
+sudo tar czf /backup.tar.gz --exclude=/backup.tar.gz --exclude=/home --exclude=/media --exclude=/dev --exclude=/mnt --exclude=/proc --exclude=/sys --exclude=/tmp /
