@@ -33,5 +33,7 @@ sudo apt-get install gyazo
 #pulseaudio set port on startup
 pacmd set-sink-port 0 analog-output-headphones
 
-#backup (or use cloneizlla)
-sudo tar czf /backup.tar.gz --exclude=/backup.tar.gz --exclude=/home --exclude=/media --exclude=/dev --exclude=/mnt --exclude=/proc --exclude=/sys --exclude=/tmp /
+#caffeine
+sudo apt-add-repository ppa:caffeine-developers/ppa
+sudo apt-get update
+sudo apt-get install caffeine
