@@ -37,3 +37,6 @@ pacmd set-sink-port 0 analog-output-headphones
 sudo apt-add-repository ppa:caffeine-developers/ppa
 sudo apt-get update
 sudo apt-get install caffeine
+
+#force monitor off
+xset dpms force off
