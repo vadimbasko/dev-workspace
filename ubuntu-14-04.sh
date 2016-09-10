@@ -29,6 +29,9 @@ sudo apt-add-repository ppa:caffeine-developers/ppa
 sudo apt-get update
 sudo apt-get install caffeine
 
+#last driver for hda_intel_audio
+#https://code.launchpad.net/~ubuntu-audio-dev/+archive/ubuntu/alsa-daily/+packages
+
 #stand by sda disk
 #sudo hdparm -B -Y /dev/sda
 
