@@ -24,6 +24,11 @@ sudo apt-get install oracle-java8-installer
 curl -s https://packagecloud.io/install/repositories/gyazo/gyazo-for-linux/script.deb.sh | sudo bash
 sudo apt-get install gyazo
 
+#caffeine
+sudo apt-add-repository ppa:caffeine-developers/ppa
+sudo apt-get update
+sudo apt-get install caffeine
+
 #stand by sda disk
 #sudo hdparm -B -Y /dev/sda
 
@@ -31,12 +36,7 @@ sudo apt-get install gyazo
 #gnome-session-quit --power-off --force
 
 #pulseaudio set port on startup
-pacmd set-sink-port 0 analog-output-headphones
-
-#caffeine
-sudo apt-add-repository ppa:caffeine-developers/ppa
-sudo apt-get update
-sudo apt-get install caffeine
+#pacmd set-sink-port 0 analog-output-headphones
 
 #force monitor off
-xset dpms force off
+#xset dpms force off
