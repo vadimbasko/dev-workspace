@@ -1,4 +1,4 @@
-sudo apt-get install -y git, virtualbox, rdesktop, openvpn
+sudo apt-get install -y git, virtualbox-qt, rdesktop, openvpn
 
 #gradle
 wget -P /opt https://services.gradle.org/distributions/gradle-1.12-all.zip
@@ -39,14 +39,3 @@ sudo apt-get install nodejs=0.10.25~dfsg2-2ubuntu1
 
 #mysql
 sudo apt-get install mysql-server
-
-#virtualbox
-#Add the following line to your /etc/apt/sources.list:
-deb http://download.virtualbox.org/virtualbox/debian xenial contrib
-
-wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
-wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
-
-sudo apt-get update
-sudo apt-get install virtualbox-5.1
-
