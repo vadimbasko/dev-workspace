@@ -43,3 +43,10 @@ sudo apt-get install caffeine
 
 #force monitor off
 #xset dpms force off
+
+#loader timeout
+nano /etc/default/grub
+#edit line - GRUB_TIMEOUT=2
+sudo update-grub
+
+
