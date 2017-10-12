@@ -2,6 +2,10 @@
 
 # drivers
 
+#huawei modem fix
+#sudo usb_modeswitch -v 12d1 -p 1f01 -J 
+#lsusb 
+
 #tools
 sudo apt install -y mc
 
