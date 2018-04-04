@@ -13,3 +13,6 @@ sudo apt install -y mc
 sudo add-apt-repository ppa:hluk/copyq -y
 sudo apt update
 sudo apt install -y copyq
+
+sudo add-apt-repository ppa:webupd8team/java && sudo apt update
+sudo apt install oracle-java8-installer
