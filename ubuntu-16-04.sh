@@ -20,3 +20,9 @@ synclient PalmDetect=1
 lsusb
 #Bus 001 Device 004: ID 12d1:1f01 Huawei Technologies Co., Ltd. E353/E3131 (Mass storage mode)
 sudo usb_modeswitch -v 12d1 -p 1f01 -J
+
+#fonts for LibreOffice Draw
+sudo apt install ttf-mscorefonts-installer
+
+#shortcut for shutdown
+gnome-session-quit --power-off --force
