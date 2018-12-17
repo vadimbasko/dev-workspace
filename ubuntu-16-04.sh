@@ -14,7 +14,11 @@ sudo add-apt-repository ppa:webupd8team/java && sudo apt update
 sudo apt install oracle-java8-installer
 
 #touchpad
-synclient PalmDetect=1
+#Option "FingerLow" "integer"
+#When finger pressure drops below this value, the driver counts it as a release. Property: "Synaptics Finger"
+#Option "FingerHigh" "integer"
+#When finger pressure goes above this value, the driver counts it as a touch. Property: "Synaptics Finger"
+synclient PalmDetect=1 FingerLow=30 FingerHigh=50
 
 #huawei modem
 lsusb
