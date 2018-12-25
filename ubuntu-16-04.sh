@@ -14,6 +14,8 @@ sudo add-apt-repository ppa:webupd8team/java && sudo apt update
 sudo apt install oracle-java8-installer
 
 #touchpad
+#for kubuntu - instal synaptics
+sudo apt install xserver-xorg-input-synaptics
 #Option "FingerLow" "integer"
 #When finger pressure drops below this value, the driver counts it as a release. Property: "Synaptics Finger"
 #Option "FingerHigh" "integer"
