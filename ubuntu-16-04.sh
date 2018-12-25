@@ -30,3 +30,8 @@ sudo apt install ttf-mscorefonts-installer
 
 #shortcut for shutdown
 gnome-session-quit --power-off --force
+
+#laptop battery management
+sudo add-apt-repository ppa:linrunner/tlp
+sudo apt update
+sudo apt-get install tlp tlp-rdw
