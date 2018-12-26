@@ -13,7 +13,7 @@ sudo apt install -y copyq
 sudo add-apt-repository ppa:webupd8team/java && sudo apt update
 sudo apt install oracle-java8-installer
 
-#equalizer
+#equalizer run as qpaeq
 sudo apt-get install pulseaudio-equalizer
 
 #touchpad
