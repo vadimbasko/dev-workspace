@@ -13,6 +13,9 @@ sudo apt install -y copyq
 sudo add-apt-repository ppa:webupd8team/java && sudo apt update
 sudo apt install oracle-java8-installer
 
+#equalizer
+sudo apt-get install pulseaudio-equalizer
+
 #touchpad
 #for kubuntu - instal synaptics
 sudo apt install xserver-xorg-input-synaptics
