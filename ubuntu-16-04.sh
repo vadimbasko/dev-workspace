@@ -15,6 +15,16 @@ sudo apt install oracle-java8-installer
 
 #equalizer run as qpaeq
 sudo apt-get install pulseaudio-equalizer
+#fix equalizer for ubuntu
+sudo cp /etc/pulse/default.pa /etc/pulse/default.pa.bak
+sudo tee -a /etc/pulse/default.pa <<EOF 
+
+#modules for proper work equalizer
+load-module module-equalizer-sink
+load-module module-dbus-protocol
+EOF
+#restart pulseaudio
+pulseaudio -kill
 
 #touchpad
 #for kubuntu - instal synaptics
