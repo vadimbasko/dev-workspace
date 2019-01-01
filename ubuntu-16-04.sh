@@ -50,3 +50,6 @@ gnome-session-quit --power-off --force
 sudo add-apt-repository ppa:linrunner/tlp
 sudo apt update
 sudo apt-get install tlp tlp-rdw
+
+#fix nodejs fs.inotify.max_user_watches
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
