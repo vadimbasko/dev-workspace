@@ -54,7 +54,7 @@ sudo apt-get install tlp tlp-rdw
 #fix nodejs fs.inotify.max_user_watches
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
-#hp realtek wifi driver
+#realtek wifi driver
 git clone https://github.com/lwfinger/rtlwifi_new.git
 cd rtlwifi_new
 make
