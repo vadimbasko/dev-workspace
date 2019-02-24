@@ -53,3 +53,11 @@ sudo apt-get install tlp tlp-rdw
 
 #fix nodejs fs.inotify.max_user_watches
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+#hp realtek wifi driver
+git clone https://github.com/lwfinger/rtlwifi_new.git
+cd rtlwifi_new
+make
+sudo make install
+sudo modprobe -r rtl8723be
+sudo modprobe rtl8723be
