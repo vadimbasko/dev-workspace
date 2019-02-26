@@ -64,3 +64,7 @@ echo "options rtl8723be ant_sel=2" > /etc/modprobe.d/50-rtl8723be.conf
 exit
 sudo modprobe -r rtl8723be
 sudo modprobe rtl8723be
+
+#aliases in ~/.bashrc
+echo "# aliases" | tee -a ~/.bashrc
+echo "alias gg='gradle'" | tee -a ~/.bashrc
