@@ -65,13 +65,5 @@ exit
 sudo modprobe -r rtl8723be
 sudo modprobe rtl8723be
 
-#aliases in ~/.bashrc
-echo "# aliases" | tee -a ~/.bashrc
-echo "alias gg='gradle'" | tee -a ~/.bashrc
-
-#openvpn
-sudo apt install openvpn
-sudo mkdir /etc/openvpn/keys
-#extract  keys
 
 
