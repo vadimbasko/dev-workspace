@@ -9,3 +9,7 @@ apt-cache policy <PACKAGE>
 echo "# aliases" | tee -a ~/.bashrc
 echo "alias gg='gradle'" | tee -a ~/.bashrc
 
+#postgres
+ sudo -u postgres psql -U postgres -d <DATABASE>
+
+
