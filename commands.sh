@@ -11,5 +11,7 @@ echo "alias gg='gradle'" | tee -a ~/.bashrc
 
 #postgres
  sudo -u postgres psql -U postgres -d <DATABASE>
+ sudo -u postgres psql -U postgres -d <DATABASE> -f dump/<DB DUMP>.sql
+
 
 
