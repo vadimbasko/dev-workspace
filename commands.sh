@@ -15,6 +15,11 @@ echo "alias gg='gradle'" | tee -a ~/.bashrc
  
  #reload .bashrc
  . ~/.bashrc
+ 
+ #clean swap
+ sudo swapoff -a && sudo swapon -a
+
+ 
 
 
 
