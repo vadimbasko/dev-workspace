@@ -65,5 +65,8 @@ exit
 sudo modprobe -r rtl8723be
 sudo modprobe rtl8723be
 
+#force not use swap
+echo vm.swappiness=0 | sudo tee -a /etc/sysctl.conf
+
 
 
