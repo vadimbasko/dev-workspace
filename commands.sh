@@ -18,6 +18,10 @@ echo "alias gg='gradle'" | tee -a ~/.bashrc
  
  #clean swap
  sudo swapoff -a && sudo swapon -a
+ 
+ #disk usage
+ df -h /dev/sda3
+
 
  
 
