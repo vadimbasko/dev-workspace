@@ -25,6 +25,9 @@ echo "alias gg='gradle'" | tee -a ~/.bashrc
  #get memory info
  sudo dmidecode --type 17 
 
+#delete git local branches
+git branch | grep -v "master" | xargs git branch -D
+
 
  
 
