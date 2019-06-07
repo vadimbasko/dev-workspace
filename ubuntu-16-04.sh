@@ -75,5 +75,9 @@ echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | su
 sudo apt update
 sudo apt install mono-devel
 
+#kde fix pulseeffects
+pactl unload-module module-switch-on-connect
+pactl unload-module module-device-manager
+
 
 
