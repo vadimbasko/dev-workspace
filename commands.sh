@@ -28,8 +28,8 @@ echo "alias gg='gradle'" | tee -a ~/.bashrc
 #delete git local branches
 git branch | grep -v "master" | xargs git branch -D
 
-
- 
+#add script to sudoers
+sudo tee -a /etc/sudoers 'MYUSERNAME ALL = NOPASSWD: /path/to/my/program' 
 
 
 
