@@ -31,5 +31,8 @@ git branch | grep -v "master" | xargs git branch -D
 #add script to sudoers
 sudo tee -a /etc/sudoers 'MYUSERNAME ALL = NOPASSWD: /path/to/my/program' 
 
+#git logs in pretty format
+git log --pretty=format:"%ar%x09%s" --author="Vadim" -n 20
+
 
 
