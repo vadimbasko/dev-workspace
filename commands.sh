@@ -21,6 +21,8 @@ echo "alias gg='gradle'" | tee -a ~/.bashrc
  
  #disk usage
  df -h /dev/sda3
+ #or
+ sudo du -ah | sort -rh | head -n 15
  
  #get memory info
  sudo dmidecode --type 17 
