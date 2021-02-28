@@ -23,6 +23,8 @@ echo "alias gg='gradle'" | tee -a ~/.bashrc
  df -h /dev/sda3
  #or
  sudo du -ah | sort -rh | head -n 15
+ # with hidden files
+ du -sch .[!.]* * | sort -rh | head -n 15
  
  #get memory info
  sudo dmidecode --type 17 
