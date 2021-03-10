@@ -12,7 +12,7 @@ sudo apt update
 # update ubuntu
 sudo apt upgrade
 
-sudo apt install -y baobab mc git-all gnome-tweak-tool xclip gnome-shell-extensions httpie jq
+sudo apt install -y baobab mc git-all gnome-tweak-tool xclip gnome-shell-extensions httpie jq vlc
 
 udo add-apt-repository ppa:hluk/copyq
 sudo apt update
@@ -30,3 +30,7 @@ npm i -g lerna
 
 # show clocks on topbar
 gsettings set org.gnome.desktop.interface clock-show-seconds true
+
+#fix after hp drivers (hplip)  install
+sudo mv /etc/xdg/autostart/hplip-systray.desktop /etc/xdg/autostart/hplip-systray.desktop.old
+ 
