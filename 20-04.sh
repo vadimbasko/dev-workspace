@@ -5,12 +5,6 @@
 # then run 
 # sudo update-grub
 
-# postgres
-# https://www.postgresql.org/download/linux/ubuntu/
-
-# jdk
-# https://adoptopenjdk.net/installation.html#linux-pkg
-
 # apt update 
 sudo apt update
 # update ubuntu
@@ -22,10 +16,18 @@ udo add-apt-repository ppa:hluk/copyq
 sudo apt update
 sudo apt install -y copyq
 
+# development
+
 #nvm node e.t.c frontend
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 nvm install 14.16.0
 npm i -g lerna
+
+# postgres
+# https://www.postgresql.org/download/linux/ubuntu/
+
+# jdk
+# https://adoptopenjdk.net/installation.html#linux-pkg
 
 # config
 
