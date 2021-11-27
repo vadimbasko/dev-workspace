@@ -31,6 +31,8 @@ npm i -g lerna
 
 # autohide toopbar 
 # https://ubuntuhandbook.org/index.php/2020/08/top-panel-auto-hide-ubuntu-20-04/
+sudo apt install gnome-shell-extension-autohidetopbar
+# restart gnom and enable “Hide Top Bar” in "Extensions" app
 
 # show clocks on topbar
 gsettings set org.gnome.desktop.interface clock-show-seconds true
