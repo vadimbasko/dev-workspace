@@ -19,7 +19,7 @@ sudo apt install -y copyq
 # development
 
 #nvm node e.t.c frontend
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 nvm install 14.16.0
 npm i -g lerna
 
@@ -34,7 +34,7 @@ npm i -g lerna
 # autohide toopbar 
 # https://ubuntuhandbook.org/index.php/2020/08/top-panel-auto-hide-ubuntu-20-04/
 sudo apt install -y gnome-shell-extension-autohidetopbar
-# restart gnom and enable “Hide Top Bar” in "Extensions" app
+# restart gnome and enable “Hide Top Bar” in "Extensions" app
 
 # show clocks on topbar
 gsettings set org.gnome.desktop.interface clock-show-seconds true
