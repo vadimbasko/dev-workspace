@@ -20,7 +20,7 @@ sudo apt install -y copyq
 
 #nvm node e.t.c frontend
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
-nvm install 14.16.0
+nvm install 14.18.1
 npm i -g lerna
 
 # postgres
