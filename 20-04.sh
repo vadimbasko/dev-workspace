@@ -48,5 +48,9 @@ gsettings set org.gnome.desktop.interface clock-show-seconds true
 sudo mv /etc/xdg/autostart/hplip-systray.desktop /etc/xdg/autostart/hplip-systray.desktop.old
 
 #headset senheiser 670
-#https://github.com/szszoke/sennheiser-gsp670-pulseaudio-profile
+#https://github.com/szszoke/sennheiser-gsp670-pulseaudio-profile/releases/tag/1.2
+wget https://github.com/szszoke/sennheiser-gsp670-pulseaudio-profile/releases/download/1.2/pulseaudio-sennheiser-gsp670_1.2_all.deb
+sudo dpkg -i pulseaudio-sennheiser-gsp670_1.2_all.deb
+pulseaudio -k
+pulseaudio --start
  
