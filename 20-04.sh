@@ -2,6 +2,8 @@
 # https://askubuntu.com/questions/771899/pcie-bus-error-severity-corrected
 # in /etc/default/gub set
 # GRUB_CMDLINE_LINUX_DEFAULT="quiet splash pci=nomsi"
+# then run 
+# sudo update-grub
 
 # postgres
 # https://www.postgresql.org/download/linux/ubuntu/
