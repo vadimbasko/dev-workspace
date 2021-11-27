@@ -46,4 +46,7 @@ gsettings set org.gnome.desktop.interface clock-show-seconds true
 
 #fix after hp drivers (hplip)  install
 sudo mv /etc/xdg/autostart/hplip-systray.desktop /etc/xdg/autostart/hplip-systray.desktop.old
+
+#headset senheiser 670
+#https://github.com/szszoke/sennheiser-gsp670-pulseaudio-profile
  
