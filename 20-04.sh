@@ -53,4 +53,8 @@ wget https://github.com/szszoke/sennheiser-gsp670-pulseaudio-profile/releases/do
 sudo dpkg -i pulseaudio-sennheiser-gsp670_1.2_all.deb
 pulseaudio -k
 pulseaudio --start
+
+#autohide left bar (dock)
+# settings -> apperarnce -> behavior 
+
  
