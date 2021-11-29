@@ -54,6 +54,13 @@ sudo dpkg -i pulseaudio-sennheiser-gsp670_1.2_all.deb
 pulseaudio -k
 pulseaudio --start
 
+# desktop matrix
+mkdir ~/.local/share/gnome-shell/extensions/wsmatrix@martin.zurowietz.de
+wget https://github.com/mzur/gnome-shell-wsmatrix/releases/download/v6.2/wsmatrix@martin.zurowietz.de.zip -P ~/.local/share/gnome-shell/extensions/wsmatrix@martin.zurowietz.de
+# unzip archive in folder ~/.local/share/gnome-shell/extensions/wsmatrix@martin.zurowietz.de
+gnome-extensions enable wsmatrix@martin.zurowietz.de
+# restart gnome
+
 #autohide left bar (dock)
 # settings -> apperarnce -> behavior 
 
