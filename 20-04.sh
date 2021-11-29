@@ -41,6 +41,9 @@ sudo apt install -y adoptopenjdk-11-hotspot
 sudo apt install -y gnome-shell-extension-autohidetopbar
 # restart gnome and enable “Hide Top Bar” in "Extensions" app
 
+#autohide left bar (dock)
+# settings -> apperarnce -> behavior 
+
 # show clocks on topbar
 gsettings set org.gnome.desktop.interface clock-show-seconds true
 
@@ -55,13 +58,7 @@ pulseaudio -k
 pulseaudio --start
 
 # desktop matrix
-mkdir ~/.local/share/gnome-shell/extensions/wsmatrix@martin.zurowietz.de
-wget https://github.com/mzur/gnome-shell-wsmatrix/releases/download/v6.2/wsmatrix@martin.zurowietz.de.zip -P ~/.local/share/gnome-shell/extensions/wsmatrix@martin.zurowietz.de
-# unzip archive in folder ~/.local/share/gnome-shell/extensions/wsmatrix@martin.zurowietz.de
-gnome-extensions enable wsmatrix@martin.zurowietz.de
-# restart gnome
+# https://extensions.gnome.org/extension/1485/workspace-matrix/
 
-#autohide left bar (dock)
-# settings -> apperarnce -> behavior 
 
  
