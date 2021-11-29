@@ -25,6 +25,7 @@ npm i -g lerna
 
 # postgres
 # https://www.postgresql.org/download/linux/ubuntu/
+sudo apt install postgresql-12 -y
 
 # jdk
 # https://adoptopenjdk.net/installation.html#linux-pkg
