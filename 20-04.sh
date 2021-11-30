@@ -10,7 +10,7 @@ sudo apt update
 # update ubuntu
 sudo apt upgrade
 
-sudo apt install -y baobab mc git-all gnome-tweak-tool xclip gnome-shell-extensions httpie jq vlc
+sudo apt install -y baobab mc git-all gnome-tweak-tool xclip gnome-shell-extensions httpie jq vlc peek
 
 udo add-apt-repository ppa:hluk/copyq
 sudo apt update
