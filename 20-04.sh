@@ -63,5 +63,5 @@ pulseaudio --start
 # desktop matrix
 # https://extensions.gnome.org/extension/1485/workspace-matrix/
 
-
- 
+# idea config
+# https://youtrack.jetbrains.com/articles/IDEA-A-2/Inotify-Watches-Limit
