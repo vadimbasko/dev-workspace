@@ -23,6 +23,9 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 nvm install 14.18.1
 npm i -g lerna
 
+# changing IDE default directories
+# https://intellij-support.jetbrains.com/hc/en-us/articles/207240985-Changing-IDE-default-directories-used-for-config-plugins-and-caches-storage
+
 # postgres
 # https://www.postgresql.org/download/linux/ubuntu/
 sudo apt install postgresql-12 -y
