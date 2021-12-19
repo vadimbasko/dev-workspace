@@ -10,7 +10,7 @@ sudo apt update
 # update ubuntu
 sudo apt upgrade
 
-sudo apt install -y baobab mc git-all gnome-tweak-tool xclip gnome-shell-extensions httpie jq vlc peek
+sudo apt install -y baobab mc git-all gnome-tweak-tool xclip gnome-shell-extensions httpie jq vlc peek curl
 
 udo add-apt-repository ppa:hluk/copyq
 sudo apt update
@@ -19,8 +19,12 @@ sudo apt install -y copyq
 # development
 
 #nvm node e.t.c frontend
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
-nvm install 14.18.1
+#wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+#nvm install 14.18.1
+
+curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+sudo apt install nodejs -y
+
 npm i -g lerna
 
 # changing IDE default directories
