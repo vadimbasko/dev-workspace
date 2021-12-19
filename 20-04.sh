@@ -24,6 +24,7 @@ sudo apt install -y copyq
 
 curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
 sudo apt install nodejs -y
+sudo npm i npm@7 -g
 
 npm i -g lerna
 
