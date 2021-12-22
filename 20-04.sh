@@ -12,9 +12,13 @@ sudo apt upgrade
 
 sudo apt install -y baobab mc git-all gnome-tweak-tool xclip gnome-shell-extensions httpie jq vlc peek curl
 
-udo add-apt-repository ppa:hluk/copyq
+udo add-apt-repository ppa:hluk/copyq --yes
 sudo apt update
 sudo apt install -y copyq
+
+sudo add-apt-repository ppa:peek-developers/stable --yes
+sudo apt update
+sudo apt install peek -y
 
 # development
 
