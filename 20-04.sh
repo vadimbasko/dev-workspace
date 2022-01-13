@@ -32,11 +32,6 @@ sudo npm i npm@7 -g
 
 npm i -g lerna
 
-# changing IDE default directories
-# https://intellij-support.jetbrains.com/hc/en-us/articles/207240985-Changing-IDE-default-directories-used-for-config-plugins-and-caches-storage
-# ide commit window
-# https://intellij-support.jetbrains.com/hc/en-us/community/posts/360008115520-Version-Control-Tab-is-missing
-
 # postgres
 # https://www.postgresql.org/download/linux/ubuntu/
 sudo apt install postgresql-12 -y
@@ -79,3 +74,7 @@ pulseaudio --start
 
 # idea config
 # https://youtrack.jetbrains.com/articles/IDEA-A-2/Inotify-Watches-Limit
+# changing IDE default directories
+# https://intellij-support.jetbrains.com/hc/en-us/articles/207240985-Changing-IDE-default-directories-used-for-config-plugins-and-caches-storage
+# ide commit window
+# https://intellij-support.jetbrains.com/hc/en-us/community/posts/360008115520-Version-Control-Tab-is-missing
