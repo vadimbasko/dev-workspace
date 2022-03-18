@@ -78,3 +78,5 @@ pulseaudio --start
 # https://intellij-support.jetbrains.com/hc/en-us/articles/207240985-Changing-IDE-default-directories-used-for-config-plugins-and-caches-storage
 # ide commit window
 # https://intellij-support.jetbrains.com/hc/en-us/community/posts/360008115520-Version-Control-Tab-is-missing
+# fix Pinta
+# https://askubuntu.com/questions/926458/what-causes-pinta-to-crash-instantly-when-i-begin-image-selection
