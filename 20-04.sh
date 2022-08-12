@@ -20,6 +20,9 @@ sudo add-apt-repository ppa:peek-developers/stable --yes
 sudo apt update
 sudo apt install peek -y
 
+sudo wget -P /opt https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i /opt/google-chrome-stable_current_amd64.deb
+
 # development
 
 #nvm node e.t.c frontend
