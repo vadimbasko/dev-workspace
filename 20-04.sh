@@ -69,15 +69,8 @@ sudo dpkg -i pulseaudio-sennheiser-gsp670_1.2_all.deb
 pulseaudio -k
 pulseaudio --start
 
-# desktop matrix
-# https://github.com/mzur/gnome-shell-wsmatrix#manual-linux-method
-mkdir ~/.local/share/gnome-shell/extensions
-cd ~/.local/share/gnome-shell/extensions
-wget https://github.com/mzur/gnome-shell-wsmatrix/releases/download/v7.0/wsmatrix@martin.zurowietz.de.zip
-unzip wsmatrix@martin.zurowietz.de.zip -d wsmatrix@martin.zurowietz.de
-#restart gnome shell, then
-gnome-extensions enable wsmatrix@martin.zurowietz.de
-#restart gnome shell once more
+# desktop matrix - should be insatlled via firfox, MANUAL INSTALLATION DOESN'T WORK 
+# https://extensions.gnome.org/extension/1485/workspace-matrix/ 
 
 # idea config
 # https://youtrack.jetbrains.com/articles/IDEA-A-2/Inotify-Watches-Limit
