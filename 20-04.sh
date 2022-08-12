@@ -49,9 +49,9 @@ sudo apt install -y adoptopenjdk-11-hotspot
 # autohide toopbar 
 # https://ubuntuhandbook.org/index.php/2020/08/top-panel-auto-hide-ubuntu-20-04/
 sudo apt install -y gnome-shell-extension-autohidetopbar
-# restart gnome shell
+# restart gnome shell, AND THEN ENABLE “Hide Top Bar” IN "Extensions" APP
 killall -3 gnome-shell
-# enable “Hide Top Bar” in "Extensions" app
+# 
 
 #autohide left bar (dock)
 # settings -> apperarnce -> behavior 
