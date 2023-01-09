@@ -1,4 +1,5 @@
 # fix PCIe error 
+# https://askubuntu.com/a/1222375
 # https://askubuntu.com/questions/771899/pcie-bus-error-severity-corrected
 # in /etc/default/gub set
 # GRUB_CMDLINE_LINUX_DEFAULT="quiet splash pci=nomsi"
@@ -12,7 +13,7 @@ sudo apt upgrade
 
 sudo apt install -y baobab mc git-all gnome-tweak-tool xclip gnome-shell-extensions httpie jq vlc peek curl calibre clementine
 
-udo add-apt-repository ppa:hluk/copyq --yes
+sudo add-apt-repository ppa:hluk/copyq --yes
 sudo apt update
 sudo apt install -y copyq
 
