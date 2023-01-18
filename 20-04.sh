@@ -76,6 +76,9 @@ pulseaudio --start
 # desktop matrix - should be insatlled via firfox, MANUAL INSTALLATION DOESN'T WORK 
 # https://extensions.gnome.org/extension/1485/workspace-matrix/ 
 
+# disable chrome password check warning
+# chrome://settings/security?search=Warn+you+if+passwords+are+exposed+in+a+data+breach
+
 # idea config
 # https://youtrack.jetbrains.com/articles/IDEA-A-2/Inotify-Watches-Limit
 # changing IDE default directories
