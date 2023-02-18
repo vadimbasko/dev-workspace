@@ -63,9 +63,6 @@ killall -3 gnome-shell
 # show clocks on topbar
 gsettings set org.gnome.desktop.interface clock-show-seconds true
 
-#fix after hp drivers (hplip)  install
-sudo mv /etc/xdg/autostart/hplip-systray.desktop /etc/xdg/autostart/hplip-systray.desktop.old
-
 #headset sennheiser gsp670
 #https://github.com/szszoke/sennheiser-gsp670-pulseaudio-profile/releases/tag/1.2
 wget https://github.com/szszoke/sennheiser-gsp670-pulseaudio-profile/releases/download/1.2/pulseaudio-sennheiser-gsp670_1.2_all.deb
