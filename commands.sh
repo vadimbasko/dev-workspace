@@ -1,3 +1,20 @@
+#disable\enable touchpad 
+xinput list | grep Touchpad
+xinput disable 12
+xinput enable 12
+
+#switch to cli console
+# Ctrl Alt F7 \ F1
+
+#delete git local branches
+git branch | grep -v "master" | xargs git branch -D
+
+#add script to sudoers
+sudo tee -a /etc/sudoers 'MYUSERNAME ALL = NOPASSWD: /path/to/my/program' 
+
+#git logs in pretty format
+git log --pretty=format:"%ar%x09%s" --author="Vadim" -n 20 --all
+
 #ubuntu version
 lsb_release -a
 
@@ -29,14 +46,7 @@ echo "alias gg='gradle'" | tee -a ~/.bashrc
  #get memory info
  sudo dmidecode --type 17 
 
-#delete git local branches
-git branch | grep -v "master" | xargs git branch -D
 
-#add script to sudoers
-sudo tee -a /etc/sudoers 'MYUSERNAME ALL = NOPASSWD: /path/to/my/program' 
-
-#git logs in pretty format
-git log --pretty=format:"%ar%x09%s" --author="Vadim" -n 20 --all
 
 
 
