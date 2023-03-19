@@ -84,3 +84,6 @@ pulseaudio --start
 # https://intellij-support.jetbrains.com/hc/en-us/community/posts/360008115520-Version-Control-Tab-is-missing
 # fix Pinta
 # https://askubuntu.com/questions/926458/what-causes-pinta-to-crash-instantly-when-i-begin-image-selection
+
+# DELL touchpad
+# https://www.dell.com/support/kbdoc/en-in/000150104/precision-xps-ubuntu-general-touchpad-mouse-issue-fix
