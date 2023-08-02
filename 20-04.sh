@@ -11,7 +11,7 @@ sudo apt update
 # update ubuntu
 sudo apt upgrade
 
-sudo apt install -y baobab mc git-all gnome-tweak-tool xclip gnome-shell-extensions httpie jq vlc peek curl calibre clementine
+sudo apt install -y baobab mc git-all gnome-tweak-tool xclip gnome-shell-extensions httpie jq vlc peek curl clementine
 
 sudo add-apt-repository ppa:hluk/copyq --yes
 sudo apt update
@@ -26,13 +26,8 @@ sudo dpkg -i /opt/google-chrome-stable_current_amd64.deb
 
 # development
 
-#nvm node e.t.c frontend
-#wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
-#nvm install 14.18.1
-
-curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
 sudo apt install nodejs -y
-sudo npm i npm@7 -g
 
 npm i -g lerna
 
@@ -41,12 +36,7 @@ npm i -g lerna
 sudo apt install postgresql-12 -y
 
 # jdk
-# https://adoptopenjdk.net/installation.html#linux-pkg
 # https://askubuntu.com/questions/1157417/install-adoptopenjdk-onto-ubuntu-18-04-lts
-wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
-sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
-sudo apt update
-sudo apt install -y adoptopenjdk-11-hotspot
 
 # config
 
