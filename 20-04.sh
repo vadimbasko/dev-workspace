@@ -60,7 +60,11 @@ sudo dpkg -i pulseaudio-sennheiser-gsp670_1.2_all.deb
 pulseaudio -k
 pulseaudio --start
 
-# desktop matrix - should be insatlled via firfox, MANUAL INSTALLATION DOESN'T WORK 
+# desktop matrix (workspace matrix)  
+sudo apt-get install chrome-gnome-shell
+# In FIERFOX add extension
+# https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/
+# install extension to ubuntu via fierfox
 # https://extensions.gnome.org/extension/1485/workspace-matrix/ 
 
 # disable chrome password check warning
