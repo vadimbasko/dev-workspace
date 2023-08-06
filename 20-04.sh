@@ -45,20 +45,9 @@ sudo apt install postgresql-12 -y
 sudo apt install -y gnome-shell-extension-autohidetopbar
 # restart gnome shell, AND THEN ENABLE “Hide Top Bar” IN "Extensions" APP
 killall -3 gnome-shell
-# 
 
-#autohide left bar (dock)
+# autohide left bar (dock)
 # settings -> apperarnce -> behavior 
-
-# show clocks on topbar
-gsettings set org.gnome.desktop.interface clock-show-seconds true
-
-#headset sennheiser gsp670
-#https://github.com/szszoke/sennheiser-gsp670-pulseaudio-profile/releases/tag/1.2
-wget https://github.com/szszoke/sennheiser-gsp670-pulseaudio-profile/releases/download/1.2/pulseaudio-sennheiser-gsp670_1.2_all.deb
-sudo dpkg -i pulseaudio-sennheiser-gsp670_1.2_all.deb
-pulseaudio -k
-pulseaudio --start
 
 # desktop matrix (workspace matrix)  
 sudo apt-get install chrome-gnome-shell
@@ -67,8 +56,18 @@ sudo apt-get install chrome-gnome-shell
 # install extension to ubuntu via fierfox
 # https://extensions.gnome.org/extension/1485/workspace-matrix/ 
 
+# show clocks on topbar
+gsettings set org.gnome.desktop.interface clock-show-seconds true
+
 # disable chrome password check warning
 # chrome://settings/security?search=Warn+you+if+passwords+are+exposed+in+a+data+breach
+
+#headset sennheiser gsp670
+#https://github.com/szszoke/sennheiser-gsp670-pulseaudio-profile/releases/tag/1.2
+wget https://github.com/szszoke/sennheiser-gsp670-pulseaudio-profile/releases/download/1.2/pulseaudio-sennheiser-gsp670_1.2_all.deb
+sudo dpkg -i pulseaudio-sennheiser-gsp670_1.2_all.deb
+pulseaudio -k
+pulseaudio --start
 
 # idea config
 # https://youtrack.jetbrains.com/articles/IDEA-A-2/Inotify-Watches-Limit
@@ -76,6 +75,7 @@ sudo apt-get install chrome-gnome-shell
 # https://intellij-support.jetbrains.com/hc/en-us/articles/207240985-Changing-IDE-default-directories-used-for-config-plugins-and-caches-storage
 # ide commit window
 # https://intellij-support.jetbrains.com/hc/en-us/community/posts/360008115520-Version-Control-Tab-is-missing
+
 # fix Pinta
 # https://askubuntu.com/questions/926458/what-causes-pinta-to-crash-instantly-when-i-begin-image-selection
 
