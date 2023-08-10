@@ -11,7 +11,7 @@ sudo apt update
 # update ubuntu
 sudo apt upgrade
 
-sudo apt install -y baobab mc git-all gnome-tweak-tool xclip gnome-shell-extensions httpie jq vlc peek curl clementine
+sudo apt install -y baobab mc git-all gnome-tweak-tool xclip gnome-shell-extensions httpie jq vlc peek curl clementine cheese
 
 sudo add-apt-repository ppa:hluk/copyq --yes
 sudo apt update
