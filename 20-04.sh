@@ -78,6 +78,10 @@ sudo dpkg -i pulseaudio-sennheiser-gsp670_1.2_all.deb
 pulseaudio -k
 pulseaudio --start
 
+# docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.24.0-birthday.10/docker-compose-linux-x86_64" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
 # idea config
 # https://youtrack.jetbrains.com/articles/IDEA-A-2/Inotify-Watches-Limit
 # changing IDE default directories
