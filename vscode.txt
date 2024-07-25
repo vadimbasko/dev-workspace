@@ -1,0 +1,4 @@
+# .config/Code/User/settings.json
+"editor.tokenColorCustomizations": {
+    "comments": "#BCBCBC"
+},
